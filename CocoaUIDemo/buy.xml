@@ -1,0 +1,16 @@
+<div style="margin: 80 0;">
+	<div id="circle" style="float: center; margin: 5 0; width: 140; height: 140; border-radius: 70; border: 2 solid #f36145;">
+		<span style="width: 100%; margin: 25 0 3 0; text-align: center; font-size: 36; font-weight: bold; color: #f36145;">
+			12.00
+		</span>
+		<span style="width: 100%; text-align: center; font-size: 11; color: #999;">
+			Annual rate(%)
+		</span>
+		<span style="padding: 12 0 30 0; margin-top: 10; width: 100%; text-align: center; color: #fff; background: #f36145; font-weight: bold;">
+			Buy Now!
+		</span>
+	</div>
+	<span style="float: center; margin: -135 0 0 95; padding: 2 4; font-size: small; font-weight: bold; color: #fff; background: #f36145; border-radius: 8;">
+		+0.5%
+	</span>
+</div>
