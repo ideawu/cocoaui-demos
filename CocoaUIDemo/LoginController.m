@@ -31,7 +31,7 @@
 	_submit = (IButton *)[view getViewById:@"submit"];
 	_captcha_div = [view getViewById:@"captcha_div"];
 	
-	LoginController *me = self;
+	__weak typeof(self) me = self;
 	[_submit addEvent:IEventClick handler:^(IEventType type, IView *view) {
 		[me submit];
 	}];
