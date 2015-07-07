@@ -24,6 +24,7 @@
 		08D8C1461ADEB4D0008E63D5 /* ThreeColumnController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D8C1451ADEB4D0008E63D5 /* ThreeColumnController.m */; };
 		31344D3A1ADF6CE70035FEA5 /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31344D391ADF6CE70035FEA5 /* HomeController.m */; };
 		31344D4F1AE0CB950035FEA5 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 31344D4E1AE0CB950035FEA5 /* libxml2.dylib */; };
+		314EDDBC1B4BE2F80003D9F1 /* login.css in Resources */ = {isa = PBXBuildFile; fileRef = 314EDDBB1B4BE2F80003D9F1 /* login.css */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		31344D381ADF6CE70035FEA5 /* HomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
 		31344D391ADF6CE70035FEA5 /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
 		31344D4E1AE0CB950035FEA5 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		314EDDBB1B4BE2F80003D9F1 /* login.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = login.css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				08D8C1421ADEB4AE008E63D5 /* three-cols.xml */,
 				083F63F51AA8B42500C5F9A7 /* buy.xml */,
 				083F63F71AA8B42500C5F9A7 /* login.xml */,
+				314EDDBB1B4BE2F80003D9F1 /* login.css */,
 				083F63F61AA8B42500C5F9A7 /* ic_pass.png */,
 				083F64141AA8B80600C5F9A7 /* ic_captcha.png */,
 				083F63FA1AA8B42500C5F9A7 /* user.png */,
@@ -178,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				083F64151AA8B80600C5F9A7 /* ic_captcha.png in Resources */,
+				314EDDBC1B4BE2F80003D9F1 /* login.css in Resources */,
 				083F63DE1AA8B17900C5F9A7 /* LaunchScreen.xib in Resources */,
 				08D8C1431ADEB4AE008E63D5 /* three-cols.xml in Resources */,
 				083F63FD1AA8B42500C5F9A7 /* login.xml in Resources */,

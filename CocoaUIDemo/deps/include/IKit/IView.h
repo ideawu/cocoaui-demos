@@ -1,7 +1,12 @@
-//
-//  Created by ideawu on 14-12-24.
-//  Copyright (c) 2014年 test. All rights reserved.
-//
+/*
+ Copyright (c) 2014 ideawu. All rights reserved.
+ Use of this source code is governed by a license that can be
+ found in the LICENSE file.
+ 
+ @author:  ideawu
+ @website: http://www.cocoaui.com/
+ */
+
 #ifndef IKit_IView_h
 #define IKit_IView_h
 
@@ -34,6 +39,8 @@ typedef enum{
 
 + (IView *)namedView:(NSString *)name;
 + (IView *)viewFromXml:(NSString *)xml;
++ (void)loadUrl:(NSString *)url callback:(void (^)(IView *view))callback;
+
 // only available when init with xml or file
 - (IView *)getViewById:(NSString *)vid;
 

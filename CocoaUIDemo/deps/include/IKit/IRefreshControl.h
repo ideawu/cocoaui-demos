@@ -1,7 +1,12 @@
-//
-//  Created by ideawu on 15-1-16.
-//  Copyright (c) 2015年 ideawu. All rights reserved.
-//
+/*
+ Copyright (c) 2014 ideawu. All rights reserved.
+ Use of this source code is governed by a license that can be
+ found in the LICENSE file.
+ 
+ @author:  ideawu
+ @website: http://www.cocoaui.com/
+ */
+
 #ifndef IKit_IRefreshControl_h
 #define IKit_IRefreshControl_h
 

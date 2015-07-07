@@ -1,7 +1,12 @@
-//
-//  Created by ideawu on 14-12-26.
-//  Copyright (c) 2014年 test. All rights reserved.
-//
+/*
+ Copyright (c) 2014 ideawu. All rights reserved.
+ Use of this source code is governed by a license that can be
+ found in the LICENSE file.
+ 
+ @author:  ideawu
+ @website: http://www.cocoaui.com/
+ */
+
 #ifndef IKit_IStyle_h
 #define IKit_IStyle_h
 

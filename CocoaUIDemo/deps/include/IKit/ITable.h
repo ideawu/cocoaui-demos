@@ -1,7 +1,12 @@
-//
-//  Created by ideawu on 15-2-4.
-//  Copyright (c) 2015年 ideawu. All rights reserved.
-//
+/*
+ Copyright (c) 2014 ideawu. All rights reserved.
+ Use of this source code is governed by a license that can be
+ found in the LICENSE file.
+ 
+ @author:  ideawu
+ @website: http://www.cocoaui.com/
+ */
+
 #ifndef IKit_ITable_h
 #define IKit_ITable_h
 
@@ -27,6 +32,9 @@
 - (void)addIViewRow:(IView *)view defaultHeight:(CGFloat)height;
 - (void)addDataRow:(id)data forTag:(NSString *)tag;
 - (void)addDataRow:(id)data forTag:(NSString *)tag defaultHeight:(CGFloat)height;
+- (void)addDivider:(NSString *)css;
+- (void)addDivider:(NSString *)css height:(CGFloat)height;
+// deprecated, use addDivider instead
 - (void)addSeparator:(NSString *)css;
 - (void)addSeparator:(NSString *)css height:(CGFloat)height;
 
