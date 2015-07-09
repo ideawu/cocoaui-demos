@@ -1,5 +1,5 @@
 <div style="margin: 15;">
-	<style href="login.css" />
+	<style src="login.css" />
 	
 	<img id="logo" src="user.png" />
 	
