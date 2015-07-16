@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		081D5F661B57F2A000D15676 /* ITableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 081D5F651B57F2A000D15676 /* ITableController.m */; };
 		083F63D01AA8B17900C5F9A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 083F63CF1AA8B17900C5F9A7 /* main.m */; };
 		083F63D31AA8B17900C5F9A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 083F63D21AA8B17900C5F9A7 /* AppDelegate.m */; };
 		083F63DB1AA8B17900C5F9A7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 083F63DA1AA8B17900C5F9A7 /* Images.xcassets */; };
@@ -28,6 +29,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		081D5F641B57F2A000D15676 /* ITableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITableController.h; sourceTree = "<group>"; };
+		081D5F651B57F2A000D15676 /* ITableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITableController.m; sourceTree = "<group>"; };
 		083F63CA1AA8B17900C5F9A7 /* CocoaUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		083F63CE1AA8B17900C5F9A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		083F63CF1AA8B17900C5F9A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -95,6 +98,8 @@
 				083F64171AA8B91C00C5F9A7 /* BuyController.m */,
 				083F63F81AA8B42500C5F9A7 /* LoginController.h */,
 				083F63F91AA8B42500C5F9A7 /* LoginController.m */,
+				081D5F641B57F2A000D15676 /* ITableController.h */,
+				081D5F651B57F2A000D15676 /* ITableController.m */,
 				08D8C1441ADEB4D0008E63D5 /* ThreeColumnController.h */,
 				08D8C1451ADEB4D0008E63D5 /* ThreeColumnController.m */,
 				083F63CD1AA8B17900C5F9A7 /* Supporting Files */,
@@ -200,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				081D5F661B57F2A000D15676 /* ITableController.m in Sources */,
 				08D8C1461ADEB4D0008E63D5 /* ThreeColumnController.m in Sources */,
 				083F63D31AA8B17900C5F9A7 /* AppDelegate.m in Sources */,
 				083F63D01AA8B17900C5F9A7 /* main.m in Sources */,

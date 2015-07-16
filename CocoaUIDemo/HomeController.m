@@ -10,6 +10,7 @@
 #import "LoginController.h"
 #import "BuyController.h"
 #import "ThreeColumnController.h"
+#import "ITableController.h"
 
 @interface HomeController ()
 
@@ -32,6 +33,7 @@
 
 	[self add_btn:@"Login"];
 	[self add_btn:@"Buy"];
+	[self add_btn:@"ITable"];
 	[self add_btn:@"Three Column"];
 }
 
@@ -45,6 +47,9 @@
 	}
 	if([text isEqualToString:@"Buy"]){
 		controller = [[BuyController alloc] init];
+	}
+	if([text isEqualToString:@"ITable"]){
+		controller = [[ITableController alloc] init];
 	}
 	if([text isEqualToString:@"Three Column"]){
 		controller = [[ThreeColumnController alloc] init];
