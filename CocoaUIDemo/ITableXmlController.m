@@ -18,7 +18,7 @@
 	self = [super init];
 	IView *view = [IView namedView:@"buy"];
 	[self addSubview:view];
-	[self.style set:@"border-bottom: 1 solid #333;"];
+	[self.style set:@"border-bottom: 1 solid #ccc;"];
 	return self;
 }
 // get called when is about to show data
@@ -45,7 +45,7 @@
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
-	self.navigationItem.title = @"Test";
+	self.navigationItem.title = @"TestXml";
 	
 	[self registerViewClass:[ListItemView2 class] forTag:@"item"];
 	

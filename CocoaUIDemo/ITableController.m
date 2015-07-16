@@ -20,7 +20,7 @@
 		[sub.style set:@"float: center; valign: middle; width: 100; height: 50; background: #3cf;"];
 		[self addSubview:sub];
 	}
-	[self.style set:@"height: 100; border-bottom: 1 solid #333;"];
+	[self.style set:@"height: 100; border-bottom: 1 solid #ccc;"];
 	return self;
 }
 // get called when is about to show data

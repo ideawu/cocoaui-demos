@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		081D5F661B57F2A000D15676 /* ITableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 081D5F651B57F2A000D15676 /* ITableController.m */; };
 		081D5F691B57F71D00D15676 /* ITableXmlController.m in Sources */ = {isa = PBXBuildFile; fileRef = 081D5F681B57F71D00D15676 /* ITableXmlController.m */; };
+		081D5F6C1B57FA4D00D15676 /* ITableAutoHeightController.m in Sources */ = {isa = PBXBuildFile; fileRef = 081D5F6B1B57FA4D00D15676 /* ITableAutoHeightController.m */; };
 		083F63D01AA8B17900C5F9A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 083F63CF1AA8B17900C5F9A7 /* main.m */; };
 		083F63D31AA8B17900C5F9A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 083F63D21AA8B17900C5F9A7 /* AppDelegate.m */; };
 		083F63DB1AA8B17900C5F9A7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 083F63DA1AA8B17900C5F9A7 /* Images.xcassets */; };
@@ -34,6 +35,8 @@
 		081D5F651B57F2A000D15676 /* ITableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITableController.m; sourceTree = "<group>"; };
 		081D5F671B57F71D00D15676 /* ITableXmlController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITableXmlController.h; sourceTree = "<group>"; };
 		081D5F681B57F71D00D15676 /* ITableXmlController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITableXmlController.m; sourceTree = "<group>"; };
+		081D5F6A1B57FA4D00D15676 /* ITableAutoHeightController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITableAutoHeightController.h; sourceTree = "<group>"; };
+		081D5F6B1B57FA4D00D15676 /* ITableAutoHeightController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITableAutoHeightController.m; sourceTree = "<group>"; };
 		083F63CA1AA8B17900C5F9A7 /* CocoaUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		083F63CE1AA8B17900C5F9A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		083F63CF1AA8B17900C5F9A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				081D5F651B57F2A000D15676 /* ITableController.m */,
 				081D5F671B57F71D00D15676 /* ITableXmlController.h */,
 				081D5F681B57F71D00D15676 /* ITableXmlController.m */,
+				081D5F6A1B57FA4D00D15676 /* ITableAutoHeightController.h */,
+				081D5F6B1B57FA4D00D15676 /* ITableAutoHeightController.m */,
 				08D8C1441ADEB4D0008E63D5 /* ThreeColumnController.h */,
 				08D8C1451ADEB4D0008E63D5 /* ThreeColumnController.m */,
 				083F63CD1AA8B17900C5F9A7 /* Supporting Files */,
@@ -217,6 +222,7 @@
 				083F64181AA8B91C00C5F9A7 /* BuyController.m in Sources */,
 				31344D3A1ADF6CE70035FEA5 /* HomeController.m in Sources */,
 				081D5F691B57F71D00D15676 /* ITableXmlController.m in Sources */,
+				081D5F6C1B57FA4D00D15676 /* ITableAutoHeightController.m in Sources */,
 				083F63FE1AA8B42500C5F9A7 /* LoginController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

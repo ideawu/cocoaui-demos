@@ -12,6 +12,7 @@
 #import "ThreeColumnController.h"
 #import "ITableController.h"
 #import "ITableXmlController.h"
+#import "ITableAutoHeightController.h"
 
 @interface HomeController ()
 
@@ -34,9 +35,10 @@
 
 	[self add_btn:@"Login"];
 	[self add_btn:@"Buy"];
+	[self add_btn:@"Three Column"];
 	[self add_btn:@"ITable"];
 	[self add_btn:@"ITableXml"];
-	[self add_btn:@"Three Column"];
+	[self add_btn:@"ITableAutoHeight"];
 }
 
 - (void)click:(UIButton *)btn{
@@ -50,14 +52,17 @@
 	if([text isEqualToString:@"Buy"]){
 		controller = [[BuyController alloc] init];
 	}
+	if([text isEqualToString:@"Three Column"]){
+		controller = [[ThreeColumnController alloc] init];
+	}
 	if([text isEqualToString:@"ITable"]){
 		controller = [[ITableController alloc] init];
 	}
 	if([text isEqualToString:@"ITableXml"]){
 		controller = [[ITableXmlController alloc] init];
 	}
-	if([text isEqualToString:@"Three Column"]){
-		controller = [[ThreeColumnController alloc] init];
+	if([text isEqualToString:@"ITableAutoHeight"]){
+		controller = [[ITableAutoHeightController alloc] init];
 	}
 	[self.navigationController pushViewController:controller animated:YES];
 }
