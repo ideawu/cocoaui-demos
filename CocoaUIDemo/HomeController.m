@@ -11,6 +11,7 @@
 #import "BuyController.h"
 #import "ThreeColumnController.h"
 #import "ITableController.h"
+#import "ITableXmlController.h"
 
 @interface HomeController ()
 
@@ -34,6 +35,7 @@
 	[self add_btn:@"Login"];
 	[self add_btn:@"Buy"];
 	[self add_btn:@"ITable"];
+	[self add_btn:@"ITableXml"];
 	[self add_btn:@"Three Column"];
 }
 
@@ -50,6 +52,9 @@
 	}
 	if([text isEqualToString:@"ITable"]){
 		controller = [[ITableController alloc] init];
+	}
+	if([text isEqualToString:@"ITableXml"]){
+		controller = [[ITableXmlController alloc] init];
 	}
 	if([text isEqualToString:@"Three Column"]){
 		controller = [[ThreeColumnController alloc] init];

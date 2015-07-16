@@ -1,26 +1,24 @@
 //
-//  ITableController.m
+//  ITableXmlController.m
 //  CocoaUIDemo
 //
 //  Created by ideawu on 15-7-16.
 //  Copyright (c) 2015年 ideawu. All rights reserved.
 //
 
-#import "ITableController.h"
+#import "ITableXmlController.h"
+
 
 // just like UITableCell
-@interface ListItemView : IView
+@interface ListItemView2 : IView
 @end
 
-@implementation ListItemView
+@implementation ListItemView2
 -(id)init {
 	self = [super init];
-	{
-		IView *sub = [[IView alloc] init];
-		[sub.style set:@"float: center; valign: middle; width: 100; height: 50; background: #3cf;"];
-		[self addSubview:sub];
-	}
-	[self.style set:@"height: 100; border-bottom: 1 solid #333;"];
+	IView *view = [IView namedView:@"buy"];
+	[self addSubview:view];
+	[self.style set:@"border-bottom: 1 solid #333;"];
 	return self;
 }
 // get called when is about to show data
@@ -39,18 +37,18 @@
 
 
 
-@interface ITableController ()
+@interface ITableXmlController ()
 
 @end
 
-@implementation ITableController
+@implementation ITableXmlController
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
 	self.navigationItem.title = @"Test";
-
-	[self registerViewClass:[ListItemView class] forTag:@"item"];
-
+	
+	[self registerViewClass:[ListItemView2 class] forTag:@"item"];
+	
 	// get data from network
 	[self addDataRow:@"off" forTag:@"item"];
 	[self addDataRow:@"off" forTag:@"item"];
