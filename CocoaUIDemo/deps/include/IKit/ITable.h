@@ -28,27 +28,44 @@
 - (void)clear;
 - (void)reload;
 
+- (void)registerViewClass:(Class)ivClass forTag:(NSString *)tag;
+
 - (void)addIViewRow:(IView *)view;
 - (void)addIViewRow:(IView *)view defaultHeight:(CGFloat)height;
 - (void)addDataRow:(id)data forTag:(NSString *)tag;
 - (void)addDataRow:(id)data forTag:(NSString *)tag defaultHeight:(CGFloat)height;
+
+- (void)prependIViewRow:(IView *)view;
+- (void)prependIViewRow:(IView *)view defaultHeight:(CGFloat)height;
+- (void)prependDataRow:(id)data forTag:(NSString *)tag;
+- (void)prependDataRow:(id)data forTag:(NSString *)tag defaultHeight:(CGFloat)height;
+
 - (void)addDivider:(NSString *)css;
 - (void)addDivider:(NSString *)css height:(CGFloat)height;
-// deprecated, use addDivider instead
-- (void)addSeparator:(NSString *)css;
-- (void)addSeparator:(NSString *)css height:(CGFloat)height;
 
-- (void)registerViewClass:(Class)ivClass forTag:(NSString *)tag;
+- (void)onHighlight:(IView *)view atIndex:(NSUInteger)index;
+- (void)onUnhighlight:(IView *)view atIndex:(NSUInteger)index;
+- (void)onClick:(IView *)view atIndex:(NSUInteger)index;
 
-- (void)onHighlight:(IView *)view;
-- (void)onUnhighlight:(IView *)view;
-- (void)onClick:(IView *)view;
 
 - (void)onRefresh:(IRefreshControl *)refreshControl state:(IRefreshState)state;
 /**
  * Must call this method in onRefresh() when state is IRefreshBegin
  */
 - (void)endRefresh:(IRefreshControl *)refreshControl;
+
+
+
+
+
+// @deprecated, use addDivider instead
+- (void)addSeparator:(NSString *)css;
+- (void)addSeparator:(NSString *)css height:(CGFloat)height;
+
+// @deprecated
+- (void)onHighlight:(IView *)view;
+- (void)onUnhighlight:(IView *)view;
+- (void)onClick:(IView *)view;
 
 @end
 

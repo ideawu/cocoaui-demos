@@ -23,11 +23,11 @@
 /**
  * The width, including border, padding, content
  */
-@property (nonatomic, readonly) CGFloat width;
+@property (nonatomic) CGFloat width;
 /**
  * The height, including border, padding, content
  */
-@property (nonatomic, readonly) CGFloat height;
+@property (nonatomic) CGFloat height;
 /**
  * The size, both width and height include border, padding, content
  */
@@ -55,6 +55,10 @@
  * float=center in a resizeWidth view, the behaviour is undefined
  */
 - (void)set:(NSString *)css;
+
+- (void)addClass:(NSString *)clz;
+- (void)removeClass:(NSString *)clz;
+- (BOOL)hasClass:(NSString *)clz;
 
 @end
 
