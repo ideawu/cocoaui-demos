@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CE34D603B9303841E568BF7ECCD80363F8A44C29",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CE34D603B9303841E568BF7ECCD80363F8A44C29" : 0,
+    "1FB5D72A3973ABF313A2FE4C95A1AC1687E50EAA" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EB72EC55-CD3C-4F07-8DE4-3D9A99D3DD08",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CE34D603B9303841E568BF7ECCD80363F8A44C29" : "cocoaui-demos",
+    "1FB5D72A3973ABF313A2FE4C95A1AC1687E50EAA" : "CocoaUIDemo"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CocoaUIDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CocoaUIDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ideawu\/CocoaUIDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1FB5D72A3973ABF313A2FE4C95A1AC1687E50EAA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ideawu\/cocoaui-demos",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CE34D603B9303841E568BF7ECCD80363F8A44C29"
+    }
+  ]
+}
